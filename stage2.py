@@ -64,16 +64,26 @@ def random_domino_snake(maximum_computer, maximum_player):
 
     return start_piece
 
+
+stock = random_stock_pieces()
 maximum_computer = random_computer_pieces()
 maximum_player = random_player_pieces()
 domino_snake = random_domino_snake(maximum_computer, maximum_player)
-print(random_stock_pieces())
-print(f"Computer pieces: {computer_pieces}")
-print(f"Player pieces: {player_pieces}")
-print(f"Domino snake: {start_piece}")
 
+for i in range(70):
+    print("=", end="")
+print()
+print(f"Stock size: {len(stock_pieces)}")
+print(f"Computer pieces: {len(computer_pieces)}")
+print()
+print(start_piece[0])
+print()
+print("Your pieces:")
+for i in range(len(player_pieces)):
+    print(f"{i+1}:{player_pieces[i]}")
+print()
 if len(computer_pieces) < len(player_pieces):
-    print("Status: player")
+    print("Status: It's your turn to make a move. Enter your command.")
 else:
-    print("Status: computer")
+    print("Status: Computer is about to make a move. Press Enter to continue...")
 

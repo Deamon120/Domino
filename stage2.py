@@ -27,13 +27,6 @@ def random_first_move():
         return True
     else:
         return False
-def random_computer_pieces():
-    for i in range(7):
-        random_domino = random.choice(domino)
-        computer_pieces.append(random_domino)
-        domino.remove(random_domino)
-    return f"Computer pieces: {computer_pieces}"
-
 
 def random_player_pieces():
     for i in range(7):

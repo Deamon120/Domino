@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c410668f-5fe9-4c12-9ded-d507d6c649f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/stage2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c410668f-5fe9-4c12-9ded-d507d6c649f6" name="Changes" comment="add stage2">
+      <change afterPath="$PROJECT_DIR$/stage3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage1.py" beforeDir="false" afterPath="$PROJECT_DIR$/stage1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage2.py" beforeDir="false" afterPath="$PROJECT_DIR$/stage2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
   "keyToString": {
     "Python.stage1.executor": "Run",
     "Python.stage2.executor": "Run",
+    "Python.stage3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -70,6 +70,19 @@
       <option name="presentableId" value="Default" />
       <updated>1734705292993</updated>
     </task>
+    <task id="LOCAL-00001" summary="add stage2">
+      <option name="closed" value="true" />
+      <created>1734775225716</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734775225716</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add stage2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add stage2" />
   </component>
 </project>
